@@ -1,0 +1,149 @@
+# =============================================================================
+# Operating system & general junk
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# =============================================================================
+# Environment & secrets (never commit these)
+# =============================================================================
+.env
+.env.*
+!.env.example
+!.env*.example
+*.pem
+*.key
+secrets/
+.secrets/
+
+# =============================================================================
+# Logs & debug
+# =============================================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+.ruff_cache/
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# =============================================================================
+# Node.js / npm / yarn / pnpm (Express, APIs, tooling)
+# =============================================================================
+node_modules/
+jspm_packages/
+.npm
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# =============================================================================
+# JavaScript / TypeScript (general)
+# =============================================================================
+*.tsbuildinfo
+.cache/
+
+# =============================================================================
+# React / Vite (frontend apps)
+# =============================================================================
+dist-ssr/
+*.local
+.vite/
+vite.config.*.timestamp-*
+
+# =============================================================================
+# Build & bundlers (overlap with Vite / React meta-frameworks)
+# =============================================================================
+.next/
+out/
+.nuxt/
+.output/
+.parcel-cache/
+.svelte-kit/
+.turbo/
+
+# =============================================================================
+# Testing & coverage (JS/TS)
+# =============================================================================
+coverage/
+.nyc_output/
+*.lcov
+
+# =============================================================================
+# IDEs & editors
+# =============================================================================
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.sublime-*
+
+# =============================================================================
+# Misc tooling
+# =============================================================================
+.eslintcache
+.stylelintcache
+*.tgz
